@@ -1,0 +1,81 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Skill para o auxilio do aprendizado de Braile.",
+          "examplePhrases": [
+            "Alexa, abrir Cela Braile.",
+            "Como funciona a cela braile ?",
+            "Como escreve a letra L ?"
+          ],
+          "keywords": [
+            "Alfabeto",
+            "Braile",
+            "Cela",
+            "Braile",
+            "Aprenda",
+            "Braile",
+            "Braile",
+            "Como",
+            "funciona",
+            "Braile",
+            "Como",
+            "escreve",
+            "em",
+            "braile."
+          ],
+          "name": "Cela Braile",
+          "description": "Skill criada para auxiliar no aprendizado da escrita braile, através de consultas dinâmicas do alfabeto Braile.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:090299061713:function:1f03290c-54f0-4fa4-9ff7-10a055f28c7a:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:090299061713:function:1f03290c-54f0-4fa4-9ff7-10a055f28c7a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:090299061713:function:1f03290c-54f0-4fa4-9ff7-10a055f28c7a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:090299061713:function:1f03290c-54f0-4fa4-9ff7-10a055f28c7a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

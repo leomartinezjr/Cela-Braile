@@ -1,0 +1,229 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cela braile",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "LetrasIntent",
+          "slots": [
+            {
+              "name": "varletras",
+              "type": "slotLetras"
+            }
+          ],
+          "samples": [
+            "{varletras}",
+            "como se fala a letra {varletras}",
+            "Como se escreve a letra {varletras}",
+            "Como desenha a letra {varletras}",
+            "Letra {varletras}",
+            "Como pontilha a letra {varletras}",
+            "Como escreve a letra {varletras}",
+            "Como fala a letra {varletras}"
+          ]
+        },
+        {
+          "name": "CelaIntent",
+          "slots": [],
+          "samples": [
+            "Como funciona a escrita braile",
+            "explique cela braile",
+            "cela braile",
+            "Fala sobre cela braile",
+            "O que é cela braile",
+            "Como funciona cela braila"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "W"
+              }
+            },
+            {
+              "name": {
+                "value": "Y"
+              }
+            },
+            {
+              "name": {
+                "value": "K"
+              }
+            },
+            {
+              "name": {
+                "value": "Z"
+              }
+            },
+            {
+              "name": {
+                "value": "X"
+              }
+            },
+            {
+              "name": {
+                "value": "V"
+              }
+            },
+            {
+              "name": {
+                "value": "U",
+                "synonyms": [
+                  "û",
+                  "ú",
+                  "Ú"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "T"
+              }
+            },
+            {
+              "name": {
+                "value": "S"
+              }
+            },
+            {
+              "name": {
+                "value": "R"
+              }
+            },
+            {
+              "name": {
+                "value": "Q"
+              }
+            },
+            {
+              "name": {
+                "value": "P"
+              }
+            },
+            {
+              "name": {
+                "value": "O",
+                "synonyms": [
+                  "ooo",
+                  "Oscar",
+                  "ó",
+                  "ò",
+                  "ô"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "N"
+              }
+            },
+            {
+              "name": {
+                "value": "M"
+              }
+            },
+            {
+              "name": {
+                "value": "L"
+              }
+            },
+            {
+              "name": {
+                "value": "J"
+              }
+            },
+            {
+              "name": {
+                "value": "I",
+                "synonyms": [
+                  "í",
+                  "iiii",
+                  "IIII",
+                  "Ih",
+                  "i"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "H"
+              }
+            },
+            {
+              "name": {
+                "value": "G"
+              }
+            },
+            {
+              "name": {
+                "value": "F"
+              }
+            },
+            {
+              "name": {
+                "value": "E",
+                "synonyms": [
+                  "E comercial",
+                  "\u0026",
+                  "E-comercial"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "D"
+              }
+            },
+            {
+              "name": {
+                "value": "C"
+              }
+            },
+            {
+              "name": {
+                "value": "B",
+                "synonyms": [
+                  "Bravo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "A",
+                "synonyms": [
+                  "Alfa",
+                  "Primeira Letra do alfabeto "
+                ]
+              }
+            }
+          ],
+          "name": "slotLetras"
+        }
+      ]
+    }
+  },
+  "version": "30"
+}
